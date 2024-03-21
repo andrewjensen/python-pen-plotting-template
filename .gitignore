@@ -1,0 +1,17 @@
+# General
+*.log
+
+# Caches
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# Environment
+.env
+
+# IDE
+.idea
+.vscode
+
+# Exported
+public/*.svg

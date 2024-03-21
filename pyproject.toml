@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-pen-plotting-template"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Jensen <andrewjensen90@gmail.com>"]
+readme = "README.md"
+
+[tool.taskipy.tasks]
+draw = "python -m python_pen_plotting_template.example"
+serve ="python -m http.server 8000 -d public/"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+taskipy = "^1.12.2"
+svg-py = "^1.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
